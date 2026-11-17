@@ -11,7 +11,7 @@ import { ImportExportSection } from "@/components/home/ImportExportSection";
 import { RealEstateSection } from "@/components/home/RealEstateSection";
 import { MeetTheTeamSection } from "@/components/home/MeetTheTeamSection";
 import { WhyChooseUsSection } from "@/components/home/WhyChooseUsSection";
-import { TestimonialsSection } from "@/components/home/TestimonialsSection";
+// import { TestimonialsSection } from "@/components/home/TestimonialsSection";
 import { CtaBannerSection } from "@/components/home/CtaBannerSection";
 
 export default function HomePage() {

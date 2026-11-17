@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useToast } from "@/context/ToastContext";
 import { useQuoteModal } from "@/context/QuoteModalContext";
-import { Layers, Mail, Phone, MapPin, Send, ArrowRight, ShieldCheck, Heart } from "lucide-react";
+import { Mail, Phone, MapPin, Send, ShieldCheck } from "lucide-react";
 
 export function Footer() {
   const { showToast } = useToast();

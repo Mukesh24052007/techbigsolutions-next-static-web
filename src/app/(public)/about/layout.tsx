@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Learn about TechBigSolutions — a Bangalore-based enterprise IT company driven by innovation, integrity, and precision engineering. Meet our team and discover our values.",
   alternates: {
-    canonical: "https://techbigsolutions.in/about",
+    canonical: "/about",
   },
   openGraph: {
     title: "About TechBigSolutions — Mission, Vision & Team",
     description:
       "We engineer scalable IT solutions, deliver SAP training, and drive enterprise growth through trusted partnerships across India.",
-    url: "https://techbigsolutions.in/about",
+    url: "/about",
     images: [
       {
         url: "/og-about.jpg",

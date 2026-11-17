@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Explore TechBigSolutions' complete service catalogue: SAP E2E implementation, 10-module career training, hardware AMC from ₹500, ticket bookings, and import/export logistics in Bangalore.",
   alternates: {
-    canonical: "https://techbigsolutions.in/services",
+    canonical: "/services",
   },
   openGraph: {
     title: "TechBigSolutions Services — SAP, IT, Hardware AMC & Logistics",
     description:
       "SAP E2E implementations, 10-module IT career academy, doorstep hardware repair, travel ticketing, and global import/export — all from Ambattur, Bangalore.",
-    url: "https://techbigsolutions.in/services",
+    url: "/services",
     images: [
       {
         url: "/og-services.jpg",

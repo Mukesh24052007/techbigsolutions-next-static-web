@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Contact TechBigSolutions for IT services, SAP training, hardware procurement, or recruitment. Our team at Bangalore responds within 2 hours. Call, email, or submit an inquiry.",
   alternates: {
-    canonical: "https://techbigsolutions.in/contact",
+    canonical: "/contact",
   },
   openGraph: {
     title: "Contact TechBigSolutions — Bangalore IT Services",
     description:
       "Reach our solution architects, hardware procurement desk, and 24/7 technical helpdesk. We respond to all inquiries within 2 hours.",
-    url: "https://techbigsolutions.in/contact",
+    url: "/contact",
     images: [
       {
         url: "/og-contact.jpg",

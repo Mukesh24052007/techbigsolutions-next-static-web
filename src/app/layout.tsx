@@ -17,7 +17,7 @@ const inter = Inter({
   display: "swap",
 });
 
-const SITE_URL = "https://techbigsolutions.in";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://techbigsolutions.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
   alternates: {
-    canonical: SITE_URL,
+    canonical: "/",
   },
   openGraph: {
     type: "website",
