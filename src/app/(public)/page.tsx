@@ -37,7 +37,7 @@ export default function HomePage() {
       {/* Why Choose Us & Dual Centers */}
       <WhyChooseUsSection />
       {/* Real Testimonials */}
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       {/* Final Action CTA Banner */}
       <CtaBannerSection onOpenQuoteModal={() => openQuoteModal("General Consultation")} />
     </main>

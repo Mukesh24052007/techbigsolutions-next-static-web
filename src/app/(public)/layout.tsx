@@ -7,8 +7,8 @@ import { QuoteModal } from "@/components/ui/QuoteModal";
 export default function PublicLayout({ children }: { children: React.ReactNode }) {
   return (
     <QuoteModalProvider>
-      <Navbar />
       <GstinBar />
+      <Navbar />
       <div className="flex-1 flex flex-col w-full">{children}</div>
       <Footer />
       <QuoteModal />
